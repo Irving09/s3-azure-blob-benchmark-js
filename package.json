@@ -1,0 +1,22 @@
+{
+  "name": "s3-azure-blob-benchmark-js",
+  "version": "1.0.0",
+  "description": "Benchmarking tests for S3 and Azure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irving09/s3-azure-blob-benchmark-js.git"
+  },
+  "author": "irving09",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irving09/s3-azure-blob-benchmark-js/issues"
+  },
+  "homepage": "https://github.com/Irving09/s3-azure-blob-benchmark-js#readme",
+  "dependencies": {
+    "aws-sdk": "^2.62.0"
+  }
+}
