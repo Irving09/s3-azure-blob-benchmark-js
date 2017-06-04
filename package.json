@@ -2,9 +2,9 @@
   "name": "s3-azure-blob-benchmark-js",
   "version": "1.0.0",
   "description": "Benchmarking tests for S3 and Azure",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Irving09/s3-azure-blob-benchmark-js#readme",
   "dependencies": {
-    "aws-sdk": "^2.62.0"
+    "aws-sdk": "^2.62.0",
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.2"
   }
 }
